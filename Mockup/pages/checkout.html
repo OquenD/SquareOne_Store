@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Square1 Academy - Checkout</title>
+    <link rel="stylesheet" href="../css/checkout.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <img src="logo.png" alt="Square1 Academy">
+            </div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#">WOMEN</a></li>
+                    <li><a href="#">MEN</a></li>
+                    <li><a href="#">KIDS</a></li>
+                    <li><a href="#">ACCESORIES</a></li>
+                    <li><a href="#">ABOUT US</a></li>
+                    <li><a href="#">NEWS</a></li>
+                    <li><a href="#">CONTACT US</a></li>
+                </ul>
+            </nav>
+            <div class="header-icons">
+                <a href="#" class="search-icon">🔍</a>
+                <a href="#" class="account-icon">👤</a>
+                <a href="#" class="cart-icon">🛒</a>
+            </div>
+        </div>
+    </header>
+
+    <main class="checkout-container">
+        <h1>Checkout</h1>
+        
+        <div class="checkout-content">
+            <div class="checkout-form">
+                <section class="contact-section">
+                    <h2>Contact</h2>
+                    <div class="account-prompt">
+                        Have an account? <a href="#" class="create-account">Create Account</a>
+                    </div>
+                    <input type="email" placeholder="Email Address" class="full-width">
+                </section>
+
+                <section class="delivery-section">
+                    <h2>Delivery</h2>
+                    <div class="form-row">
+                        <select class="full-width">
+                            <option>Country / Region</option>
+                        </select>
+                    </div>
+                    <div class="form-row two-columns">
+                        <input type="text" placeholder="First Name">
+                        <input type="text" placeholder="Last Name">
+                    </div>
+                    <div class="form-row">
+                        <input type="text" placeholder="Address" class="full-width">
+                    </div>
+                    <div class="form-row two-columns">
+                        <input type="text" placeholder="City">
+                        <input type="text" placeholder="Postal Code">
+                    </div>
+                    <div class="checkbox-row">
+                        <input type="checkbox" id="save-info">
+                        <label for="save-info">Save This Info For Future</label>
+                    </div>
+                </section>
+
+                <section class="payment-section">
+                    <h2>Payment</h2>
+                    <div class="form-row">
+                        <div class="card-select">
+                            <select class="full-width">
+                                <option>Credit Card</option>
+                            </select>
+                            <img src="mastercard.png" alt="Mastercard" class="card-icon">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <input type="text" placeholder="Card Number" class="full-width">
+                    </div>
+                    <div class="form-row two-columns">
+                        <input type="text" placeholder="Expiration Date">
+                        <input type="text" placeholder="Security Code">
+                    </div>
+                    <div class="form-row">
+                        <input type="text" placeholder="Card Holder Name" class="full-width">
+                    </div>
+                    <div class="checkbox-row">
+                        <input type="checkbox" id="save-payment">
+                        <label for="save-payment">Save This Info For Future</label>
+                    </div>
+                </section>
+
+                <button class="pay-button">Pay Now</button>
+
+                <footer class="checkout-footer">
+                    <p>Copyright © 2023 FACE. All rights reserved.</p>
+                </footer>
+            </div>
+
+            <div class="order-summary">
+                <div class="order-item">
+                    <div class="item-image">
+                        <img src="red-dress.jpg" alt="Mini Dress">
+                        <span class="item-count">1</span>
+                    </div>
+                    <div class="item-details">
+                        <h3>Mini Dress With Ruffled Straps</h3>
+                        <p>Red</p>
+                    </div>
+                    <div class="item-price">$100.00</div>
+                </div>
+
+                <div class="order-totals">
+                    <div class="subtotal">
+                        <span>Subtotal</span>
+                        <span>$100.00</span>
+                    </div>
+                    <div class="shipping">
+                        <span>Shipping</span>
+                        <span>$40.00</span>
+                    </div>
+                    <div class="total">
+                        <span>Total</span>
+                        <span>$140.00</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
